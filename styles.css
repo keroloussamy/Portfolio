@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+#nav-flex-container > p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+}
+
+#header-flex-container {
+  background-image: url("Images/header-illsutration-mobile.svg");
+  background-size: cover;
+  width: 100%;
+  height: 648px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#header-flex-container > h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172c4f;
+  padding-top: 31px;
+  margin-bottom: 0;
+}
+
+#header-flex-container > h1 > span {
+  color: #36b37e;
+}
+
+#header-flex-container > p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+  font-weight: 400;
+  margin: 0 24px;
+  padding: 0 4px;
+}
+
+#header-flex-container > div a {
+  margin-right: 10px;
+}
