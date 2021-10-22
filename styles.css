@@ -88,42 +88,47 @@ body {
   display: grid;
 }
 
-div.card {
-  background: #ebf0ee;
+.card {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin: 18px;
   height: 474px;
+  overflow: hidden;
 }
 
-div.card-flex-container {
+.card-img {
+  width: 100%;
+  max-height: 240px;
+}
+
+.card-flex-container {
   display: flex;
   flex-direction: column;
-  margin-top: 252px;
-  background-color: white;
   border-radius: 8px;
   height: 222px;
   justify-content: space-around;
 }
 
-p.card-title {
+.card-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #3a4a42;
   padding: 0 20px;
   text-align: center;
-  margin: 16px;
+  margin: 16px 0 0 0;
 }
 
-div.tags-flex-container {
+.tags-flex-container {
   display: flex;
   justify-content: center;
   row-gap: 10px;
   flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
 
-p.tag {
+.tag {
   margin: 0 6px;
   background: #ebf0ee;
   border-radius: 4px;
@@ -156,18 +161,9 @@ button.card-btn {
   margin-top: 60px;
   text-align: center;
   position: relative;
-}
-
-.about-me-img1 {
-  position: absolute;
-  right: 0;
-  top: -55px;
-}
-
-.about-me-img2 {
-  position: absolute;
-  left: 0;
-  top: 21%;
+  background-image: url("Images/mob1.png"), url("Images/mob2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 100% -2%, 0% 23%;
 }
 
 #about-me > h2 {
@@ -176,6 +172,7 @@ button.card-btn {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+  padding-top: 10px;
 }
 
 #about-me > p {
@@ -199,13 +196,24 @@ button.card-btn {
   border: 0;
 }
 
+.card-btn:hover,
+.btn:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.card-btn:active,
+.btn:active {
+  background: #008552;
+}
+
 #about-me-ul {
   list-style: none;
   margin: 0;
   padding: 40px 0 0 0;
 }
 
-#about-me-ul li {
+#about-me-ul > li {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   box-sizing: border-box;
@@ -218,7 +226,7 @@ button.card-btn {
   margin-top: 40px;
 }
 
-p.White-tag {
+.White-tag {
   margin: 0 8px;
   background: white;
   border-radius: 8px;
@@ -232,7 +240,7 @@ p.White-tag {
   font-family: 'Inter', sans-serif;
 }
 
-#about-me-ul li > p {
+#about-me-ul li > h3 {
   color: #344563;
   font-weight: 600;
   font-size: 24px;
