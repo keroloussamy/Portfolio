@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-ul, li {
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -274,7 +275,6 @@ button.card-btn {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  font-style: bold;
   text-align: center;
   color: #172b4d;
   margin: 0 24px;
@@ -284,7 +284,7 @@ button.card-btn {
   margin-top: 58px;
 }
 
-#form-items li{
+#form-items li {
   width: 100%;
 }
 
@@ -341,4 +341,3 @@ button.card-btn {
   vertical-align: top;
   margin-bottom: 147px;
 }
-
