@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -216,7 +226,6 @@ button.card-btn {
 #about-me-ul > li {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
-  box-sizing: border-box;
   border-radius: 8px;
   height: 352px;
   margin: 24px;
@@ -249,21 +258,24 @@ button.card-btn {
   margin: 24px 0;
 }
 
+/* -------------Footer------------------ */
+
 #footer-section {
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  background-image: url("Images/illustration-contact-form.png");
+  background-position: 100% 65%;
+  background-repeat: no-repeat;
 }
 
 .footer-description {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 107%;
   font-style: bold;
   text-align: center;
-  vertical-align: top;
   color: #172b4d;
   margin: 0 24px;
 }
@@ -272,24 +284,25 @@ button.card-btn {
   margin-top: 58px;
 }
 
-.input-forms {
-  border-radius: 4px;
-  box-sizing: border-box;
-  border: 1px solid #d0d9d4;
-  width: 327px;
-  height: 48px;
-  margin: 0 24px;
+#form-items li{
+  width: 100%;
 }
 
-.input-forms::placeholder {
+.input-forms {
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  width: 87%;
+  height: 48px;
+  margin: 0 24px;
+  padding: 16px;
+}
+
+::placeholder {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
-  line-height: 132%;
   text-align: left;
-  vertical-align: center;
   color: #6b778c;
-  padding-left: 16px;
 }
 
 #email {
@@ -298,18 +311,18 @@ button.card-btn {
 
 #userComment {
   margin: 24px;
-  width: 327px;
   height: 114px;
+  width: 87%;
   border-radius: 4px;
-  box-sizing: border-box;
   border: 1px solid #60c095;
+  padding: 12px;
 }
 
-#userComment::-webkit-resizer {
-  width: 10.5px;
-  height: 10.5px;
+/* #userComment::-webkit-resizer {
+  width: 30px;
+  height: 30px;
   color: #60c095;
-}
+} */
 
 #social-icons {
   margin-top: 46px;
@@ -326,15 +339,6 @@ button.card-btn {
   font-weight: 400;
   color: #42526e;
   vertical-align: top;
+  margin-bottom: 147px;
 }
 
-#userComment::placeholder {
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 132%;
-  text-align: left;
-  vertical-align: top;
-  color: #091e42;
-  padding: 12px;
-  font-weight: 400;
-}
