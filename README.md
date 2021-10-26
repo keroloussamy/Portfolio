@@ -35,6 +35,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@kerolous](https://twitter.com/SamyKerolous)
 - LinkedIn: [kerolous](https://www.linkedin.com/in/keroloussamy/)
 
+👤 vechicin
+- GitHub: [@vechicin](https://github.com/vechicin)
+- Twitter: [@vechicin](https://twitter.com/vechicin)
+- LinkedIn: [Santiago Velosa Arias](https://www.linkedin.com/in/santiago-velosa-arias-5b7543112/)
 
 ## 🤝 Contributing
 
