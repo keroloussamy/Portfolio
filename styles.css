@@ -248,3 +248,93 @@ button.card-btn {
   text-align: center;
   margin: 24px 0;
 }
+
+#footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 107%;
+  font-style: bold;
+  text-align: center;
+  vertical-align: top;
+  color: #172b4d;
+  margin: 0 24px;
+}
+
+#footer-form {
+  margin-top: 58px;
+}
+
+.input-forms {
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+  width: 327px;
+  height: 48px;
+  margin: 0 24px;
+}
+
+.input-forms::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 132%;
+  text-align: left;
+  vertical-align: center;
+  color: #6b778c;
+  padding-left: 16px;
+}
+
+#email {
+  margin-top: 24px;
+}
+
+#userComment {
+  margin: 24px;
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #60c095;
+}
+
+#userComment::-webkit-resizer {
+  width: 10.5px;
+  height: 10.5px;
+  color: #60c095;
+}
+
+#social-icons {
+  margin-top: 46px;
+}
+
+#footer-email {
+  margin-top: 19px;
+  width: 375px;
+  height: 189px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 132%;
+  font-weight: 400;
+  color: #42526e;
+  vertical-align: top;
+}
+
+#userComment::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 132%;
+  text-align: left;
+  vertical-align: top;
+  color: #091e42;
+  padding: 12px;
+  font-weight: 400;
+}
