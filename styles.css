@@ -71,7 +71,7 @@ body {
 }
 
 .social-ul li {
-  margin-right: 25px;
+  margin-right: 19px;
 }
 
 /* ------------------Works--------------- */
@@ -325,20 +325,19 @@ button.card-btn {
   color: #60c095;
 } */
 
-#social-icons {
+#footer-icons {
+  padding-left: 26px;
   margin-top: 46px;
 }
 
+
 #footer-email {
   margin-top: 19px;
-  width: 375px;
   height: 189px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
-  line-height: 132%;
   font-weight: 400;
   color: #42526e;
-  vertical-align: top;
   margin-bottom: 147px;
 }
