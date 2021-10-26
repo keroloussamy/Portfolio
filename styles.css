@@ -319,17 +319,10 @@ button.card-btn {
   padding: 12px;
 }
 
-/* #userComment::-webkit-resizer {
-  width: 30px;
-  height: 30px;
-  color: #60c095;
-} */
-
 #footer-icons {
   padding-left: 26px;
   margin-top: 46px;
 }
-
 
 #footer-email {
   margin-top: 19px;
