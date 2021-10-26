@@ -128,12 +128,6 @@ body {
   padding: 0;
 }
 
-.tags-flex-container::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .tag {
   margin: 0 6px;
   background: #ebf0ee;
