@@ -35,9 +35,11 @@ body {
   line-height: 28px;
   color: #28352f;
 }
+
 .nav-ul {
   display: none;
 }
+
 /* --------------Header Section------------------ */
 #header-flex-container {
   background-image: url(Images/header-illsutration-mobile@2x.png);
@@ -238,6 +240,7 @@ button.card-btn {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
+
   /* height: 352px; */
   margin: 24px;
   padding: 20px 0;
@@ -349,9 +352,10 @@ button.card-btn {
 
 
 /* --------------Desktop version------------------ */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   /* --------Nav--------------- */
-  #nav-flex-container > img,#nav-flex-container > p {
+  #nav-flex-container > img,
+  #nav-flex-container > p {
     display: none;
   }
 
@@ -382,7 +386,7 @@ button.card-btn {
     flex-direction: column;
     justify-content: start;
   }
-  
+
   #header-flex-container > h1 {
     font-weight: bold;
     font-size: 3.5vw;
@@ -392,11 +396,11 @@ button.card-btn {
     padding-top: 10%;
     margin-bottom: 1%;
   }
-  
+
   #header-flex-container > h1 > span {
     color: #36b37e;
   }
-  
+
   #header-flex-container > p {
     font-size: 1.6vw;
     line-height: 150%;
@@ -405,20 +409,21 @@ button.card-btn {
     margin: 0 20% 3% 20%;
     padding: 0 1%;
   }
-  
+
   .social-ul {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    margin-bottom: 5%;
+    padding-top: 2%;
+    margin-bottom: 2%;
   }
-  
+
   .social-ul li {
     margin-right: 2%;
   }
 
   /* --------------Works Section-------------- */
-  
+
   #cards-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -451,17 +456,16 @@ button.card-btn {
 
   #about-me-ul li {
     margin: 0 3%;
-    
   }
 
   /* --------------Footer Section-------------- */
   #footer-section {
     display: grid;
     grid-template-columns: 40% 60%;
-    background-image: 
-    url("Images/illustration-1-contact-form-desktop.png"), 
-    url("Images/illustration-2-contact-form-desktop.png"),
-    url("Images/contact\ form-illustratoin-3-desktop.png");
+    background-image:
+      url("Images/illustration-1-contact-form-desktop.png"),
+      url("Images/illustration-2-contact-form-desktop.png"),
+      url("Images/contact\ form-illustratoin-3-desktop.png");
     background-position: 0 78%, 21% 75%, 100% 61%;
     background-size: 16vw;
   }
@@ -471,7 +475,7 @@ button.card-btn {
     grid-column-end: 3;
     border-top: 1px solid #dfe1e6;
   }
-  
+
   .footer-description {
     padding-top: 22%;
     padding-left: 18%;
@@ -489,14 +493,8 @@ button.card-btn {
     padding-right: 3%;
     text-align: start;
   }
-  
 
   #footer-email {
     display: none;
-  }
-
-  .social-ul {
-    padding-top: 2%;
-    margin-bottom: 2%;
   }
 }
