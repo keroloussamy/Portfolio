@@ -15,12 +15,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-
-
-
-
-
-
 /* --------------Nav Section------------------ */
 #nav-flex-container {
   display: flex;
@@ -348,8 +342,6 @@ button.card-btn {
   color: #42526e;
   margin-bottom: 147px;
 }
-
-
 
 /* --------------Desktop version------------------ */
 @media screen and (min-width: 1024px) {
