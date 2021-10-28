@@ -159,9 +159,11 @@ body {
   font-family: 'Inter', sans-serif;
   transition: padding 2s;
 }
-.tag:hover{
-  padding: 12px 16px
+
+.tag:hover {
+  padding: 12px 16px;
 }
+
 button.card-btn {
   background: #36b37f;
   border-radius: 4px;
