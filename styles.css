@@ -157,6 +157,11 @@ body {
   letter-spacing: 0.03em;
   color: #3a4a42;
   font-family: 'Inter', sans-serif;
+  transition: padding 2s;
+}
+
+.tag:hover {
+  padding: 12px 16px;
 }
 
 button.card-btn {
@@ -286,6 +291,11 @@ button.card-btn {
   text-align: center;
   color: #172b4d;
   margin: 0 24px;
+  transition: color 4s;
+}
+
+.footer-description:hover {
+  color: #36b37f;
 }
 
 #footer-form {
