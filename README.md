@@ -14,7 +14,6 @@
 - Linters
 
 ## Live Demo
-
 [Live Demo Link](https://keroloussamy.github.io/Portfolio/)
 
 
