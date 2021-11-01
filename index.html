@@ -12,6 +12,19 @@
       rel="stylesheet"
     />
     <title>Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M97W09S4LH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-M97W09S4LH");
+    </script>
   </head>
   <body>
     <header>
@@ -61,7 +74,7 @@
       <h2 class="section-header">My Recent Works</h2>
       <div id="cards-grid-container">
         <div class="card">
-          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="">
+          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="" />
           <div class="card-flex-container">
             <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
             <ul class="tags-flex-container">
@@ -74,7 +87,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="">
+          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="" />
           <div class="card-flex-container">
             <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
             <ul class="tags-flex-container">
@@ -87,7 +100,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="">
+          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="" />
           <div class="card-flex-container">
             <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
             <ul class="tags-flex-container">
@@ -100,7 +113,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="">
+          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="" />
           <div class="card-flex-container">
             <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
             <ul class="tags-flex-container">
@@ -113,7 +126,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="">
+          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="" />
           <div class="card-flex-container">
             <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
             <ul class="tags-flex-container">
@@ -126,7 +139,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="">
+          <img class="card-img" src="Images/SnapshootPortfolio.png" alt="" />
           <div class="card-flex-container">
             <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
             <ul class="tags-flex-container">
@@ -184,16 +197,50 @@
       </ul>
     </section>
     <footer id="footer-section">
-      <p class="footer-description">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-      <form action="https://formspree.io/f/xknpanwy" method="post" id="footer-form">
+      <p class="footer-description">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </p>
+      <form
+        action="https://formspree.io/f/xknpanwy"
+        method="post"
+        id="footer-form"
+      >
         <ul id="form-items">
-          <li><input type="text" name="fullName" id="fullName" placeholder="Full name" maxlength="30" class="input-forms" required></li>
-          <li><input type="email" name="email" id="email" placeholder="Email address" class="input-forms" required></li>
-          <li><textarea name="userComment" id="userComment" maxlength="500" placeholder="Enter text here" required></textarea></li>
+          <li>
+            <input
+              type="text"
+              name="fullName"
+              id="fullName"
+              placeholder="Full name"
+              maxlength="30"
+              class="input-forms"
+              required
+            />
+          </li>
+          <li>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email address"
+              class="input-forms"
+              required
+            />
+          </li>
+          <li>
+            <textarea
+              name="userComment"
+              id="userComment"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+          </li>
         </ul>
         <button type="submit" class="btn">Get in touch</button>
       </form>
-      
+
       <ul class="social-ul" id="footer-icons">
         <li>
           <a href="#"><img src="Images/twitter.svg" alt="twitter" /></a>
@@ -213,6 +260,5 @@
       </ul>
       <p id="footer-email">myemailhere@email.com</p>
     </footer>
-
   </body>
 </html>
