@@ -206,7 +206,7 @@ button.card-btn {
 }
 
 .btn {
-  background: #36b37f;
+  background: #246a4c;
   border-radius: 4px;
   padding: 12px;
   letter-spacing: 0.03em;
@@ -220,8 +220,8 @@ button.card-btn {
 
 .card-btn:hover,
 .btn:hover {
-  background: #36b37f;
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  background: #2e8561;
+  box-shadow: 0 8px 16px #36b37f3d;
 }
 
 .card-btn:active,
