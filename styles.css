@@ -165,13 +165,13 @@ body {
 }
 
 button.card-btn {
-  background: #36b327;
+  background: #36b37f;
   border-radius: 4px;
   align-items: center;
   padding: 12px;
   letter-spacing: 0.03em;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   margin: auto;
