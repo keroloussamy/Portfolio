@@ -50,7 +50,7 @@ body {
 
 #header-flex-container > h1 {
   font-weight: bold;
-  font-size: 10vw;
+  font-size: 220%;
   line-height: 130%;
   text-align: center;
   color: #172c4f;
@@ -63,7 +63,7 @@ body {
 }
 
 #header-flex-container > p {
-  font-size: 5.5vw;
+  font-size: 123%;
   line-height: 150%;
   color: #172b4d;
   font-weight: 400;
