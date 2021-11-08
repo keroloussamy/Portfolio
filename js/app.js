@@ -8,7 +8,7 @@ const navLink2 = document.querySelector('.nav-item2');
 const navLink3 = document.querySelector('.nav-item3');
 
 function showUp() {
-  navUl.classList.add('display-menu');
+  navUl.classList.add('display-menu', 'animate__fadeInDown');
   navHeader.classList.add('d-none');
   closeNav.classList.remove('d-none');
 }
