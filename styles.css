@@ -28,9 +28,10 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
+  margin-top: 20px;
 }
 
-.nav-ul {
+.nav-ul-container {
   display: none;
 }
 
@@ -361,6 +362,10 @@ button.card-btn {
     display: none;
   }
 
+  .nav-ul-container {
+    display: block;
+  }
+
   .nav-ul {
     display: flex;
     justify-content: center;
@@ -499,4 +504,23 @@ button.card-btn {
   #footer-email {
     display: none;
   }
+}
+
+.display-menu {
+  display: block;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: start;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.nav-item {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
 }
