@@ -30,7 +30,7 @@ const projects = [{
   name: 'Keeping track of hundreds of components 1',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage: 'Images/SnapshootPortfolio.png',
-  technologies: ['html', 'css', 'js', 'Codepen', 'Terminal', 'Bootstrap'],
+  technologies: ['Ruby on rails', 'css', 'JavScript', 'Codepen', 'Terminal', 'Bootstrap'],
   linktoLiveVersion: '#',
   linkToSource: '#',
 },
@@ -38,7 +38,7 @@ const projects = [{
   name: 'Keeping track of hundreds of components 2',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage: 'Images/SnapshootPortfolio.png',
-  technologies: ['html', 'css', 'js', 'Codepen', 'Terminal', 'Bootstrap'],
+  technologies: ['Ruby on rails', 'css', 'JavScript', 'Codepen', 'Terminal', 'Bootstrap'],
   linktoLiveVersion: '#',
   linkToSource: '#',
 },
@@ -46,7 +46,7 @@ const projects = [{
   name: 'Keeping track of hundreds of components 3',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage: 'Images/SnapshootPortfolio.png',
-  technologies: ['html', 'css', 'js', 'Codepen', 'Terminal', 'Bootstrap'],
+  technologies: ['Ruby on rails', 'css', 'JavScript', 'Codepen', 'Terminal', 'Bootstrap'],
   linktoLiveVersion: '#',
   linkToSource: '#',
 },
@@ -54,7 +54,7 @@ const projects = [{
   name: 'Keeping track of hundreds of components 4',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage: 'Images/SnapshootPortfolio.png',
-  technologies: ['html', 'css', 'js', 'Codepen', 'Terminal', 'Bootstrap'],
+  technologies: ['Ruby on rails', 'css', 'JavScript', 'Codepen', 'Terminal', 'Bootstrap'],
   linktoLiveVersion: '#',
   linkToSource: '#',
 },
@@ -62,7 +62,7 @@ const projects = [{
   name: 'Keeping track of hundreds of components 5',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage: 'Images/SnapshootPortfolio.png',
-  technologies: ['html', 'css', 'js', 'Codepen', 'Terminal', 'Bootstrap'],
+  technologies: ['Ruby on rails', 'css', 'JavScript', 'Codepen', 'Terminal', 'Bootstrap'],
   linktoLiveVersion: '#',
   linkToSource: '#',
 },
@@ -70,7 +70,7 @@ const projects = [{
   name: 'Keeping track of hundreds of components 6',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage: 'Images/SnapshootPortfolio.png',
-  technologies: ['html', 'css', 'js', 'Codepen', 'Terminal', 'Bootstrap'],
+  technologies: ['Ruby on rails', 'css', 'JavScript', 'Codepen', 'Terminal', 'Bootstrap'],
   linktoLiveVersion: '#',
   linkToSource: '#',
 },
@@ -94,7 +94,7 @@ function showUpDetails(e) {
   detailImg.src = projects[id - 1].featuredImage;
   projects[id - 1].technologies.forEach((x) => {
     const li = document.createElement('li');
-    li.classList.add('badge', 'bg-white-gray', 'text-dark', 'p-2', 'm-1');
+    li.classList.add('bg-white-gray');
     const t = document.createTextNode(x);
     li.appendChild(t);
     technologiesUl.appendChild(li);

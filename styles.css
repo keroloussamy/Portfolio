@@ -382,7 +382,7 @@ button.card-btn {
   height: 100vh;
   width: 100%;
   text-align: start;
-  padding: 4%;
+  padding: 20px 16px;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -392,8 +392,8 @@ button.card-btn {
 .internal-details-div {
   background-color: white;
   height: 100%;
-  width: 93vw;
-  padding: 3%;
+  width: 100%;
+  padding: 16px 16px 20px;
   border-radius: 8px;
   margin: auto;
 }
@@ -407,13 +407,22 @@ button.card-btn {
 
 .bg-white-gray {
   background: #ebf0ee;
-  color: #3a4a42;
+  color: #3a4a42 !important;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: inline;
+  margin-right: 10px;
+  border-radius: 4px;
 }
 
 .detail-p {
   color: #344563;
   line-height: 24px;
+  font-size: 15px;
   margin-bottom: 8px;
+  font-family: 'Inter', sans-serif;
 }
 
 .detail-btn {
@@ -428,7 +437,7 @@ button.card-btn {
   position: absolute;
 }
 
-.detail-technologies li:nth-child(n+3):nth-child(-n+4) {
+.detail-technologies li:nth-child(n+4) {
   display: none;
 }
 
@@ -584,6 +593,10 @@ button.card-btn {
   }
 
   /* ------------------Display detail-------------------- */
+  .display-details {
+    padding: 7% 0;
+  }
+
   .internal-details-div {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
@@ -642,5 +655,9 @@ button.card-btn {
   .detail-technologies {
     grid-column: 1/4;
     grid-row: 4/5;
+  }
+
+  .detail-technologies li:nth-child(n+4) {
+    display: initial;
   }
 }
