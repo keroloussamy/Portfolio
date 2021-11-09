@@ -58,9 +58,27 @@
         <div class="nav-ul-container animate__animated">
           <i class="fa-solid fa-x d-none close-nav w-100 text-end p-4"></i>
           <ul class="nav-ul">
-            <li><a class="nav-item nav-item1 text-decoration-none" href="#header-flex-container">Portoflio</a></li>
-            <li><a class="nav-item nav-item2 text-decoration-none" href="#about-me">About</a></li>
-            <li><a class="nav-item nav-item3 text-decoration-none" href="#footer-section">Contact</a></li>
+            <li>
+              <a
+                class="nav-item nav-item1 text-decoration-none"
+                href="#header-flex-container"
+                >Portoflio</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-item nav-item2 text-decoration-none"
+                href="#about-me"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-item nav-item3 text-decoration-none"
+                href="#footer-section"
+                >Contact</a
+              >
+            </li>
           </ul>
         </div>
         <h1>
@@ -99,6 +117,22 @@
     </section>
     <section id="my-recent-works">
       <h2 class="section-header">My Recent Works</h2>
+
+      <div id="Project-detail" class="d-none">
+        <div class="internal-details-div position-relative">
+          <i class="fa-solid fa-x close-detail"></i>
+          <img src="#" class="w-100 detail-img" alt="" />
+          <h3 class="detail-h3">Keeping track of hundreds of components</h3>
+          <ul class="list-unstyled detail-technologies"></ul>
+          <p class="detail-p"></p>
+          <a href="" class="btn detail-btn text-white seeLive"
+            >See Live <img src="Images/Export.svg" alt="Export Icon"
+          /></a>
+          <a href="" class="btn detail-btn text-white seeSource"
+            >See Source <img src="Images/GitHubw.svg" alt="GitHub Icon"
+          /></a>
+        </div>
+      </div>
       <div id="cards-grid-container">
         <div class="card">
           <img
@@ -114,7 +148,13 @@
               <li class="tag">JavaScript</li>
               <li class="tag">html</li>
             </ul>
-            <button type="button" class="card-btn">See Project</button>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="1"
+            >
+              See Project
+            </button>
           </div>
         </div>
         <div class="card">
@@ -131,7 +171,13 @@
               <li class="tag">JavaScript</li>
               <li class="tag">html</li>
             </ul>
-            <button type="button" class="card-btn">See Project</button>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="2"
+            >
+              See Project
+            </button>
           </div>
         </div>
         <div class="card">
@@ -148,7 +194,13 @@
               <li class="tag">JavaScript</li>
               <li class="tag">html</li>
             </ul>
-            <button type="button" class="card-btn">See Project</button>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="3"
+            >
+              See Project
+            </button>
           </div>
         </div>
         <div class="card">
@@ -165,7 +217,13 @@
               <li class="tag">JavaScript</li>
               <li class="tag">html</li>
             </ul>
-            <button type="button" class="card-btn">See Project</button>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="4"
+            >
+              See Project
+            </button>
           </div>
         </div>
         <div class="card">
@@ -182,7 +240,13 @@
               <li class="tag">JavaScript</li>
               <li class="tag">html</li>
             </ul>
-            <button type="button" class="card-btn">See Project</button>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="5"
+            >
+              See Project
+            </button>
           </div>
         </div>
         <div class="card">
@@ -199,7 +263,13 @@
               <li class="tag">JavaScript</li>
               <li class="tag">html</li>
             </ul>
-            <button type="button" class="card-btn">See Project</button>
+            <button
+              type="button"
+              class="card-btn project-btn"
+              data-projectId="6"
+            >
+              See Project
+            </button>
           </div>
         </div>
       </div>
@@ -213,7 +283,7 @@
       </p>
       <button type="button" class="btn">Get My Resume</button>
       <ul id="about-me-ul">
-        <li>
+        <li class="about-me-li">
           <img src="Images/icon-languages.png" alt="languages icon" />
           <h3>Languages</h3>
           <ul class="tags-flex-container">
@@ -258,7 +328,7 @@
         id="footer-form"
       >
         <ul id="form-items">
-          <li>
+          <li class="form-items-li">
             <input
               type="text"
               name="fullName"
@@ -269,7 +339,7 @@
               required
             />
           </li>
-          <li>
+          <li class="form-items-li">
             <input
               type="email"
               name="email"
@@ -279,7 +349,7 @@
               required
             />
           </li>
-          <li>
+          <li class="form-items-li">
             <textarea
               name="userComment"
               id="userComment"
