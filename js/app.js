@@ -116,7 +116,7 @@ window.onload = function () {
 
   closeDetail.addEventListener('click', closeUpDetails);
 
-  //---------------------------------------------email validation
+  //email validation
   const regex = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
   const form = document.getElementById('footer-form');
   const email = document.getElementById('email');
