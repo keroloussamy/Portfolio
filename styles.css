@@ -354,6 +354,11 @@ button.card-btn {
   margin-bottom: 147px;
 }
 
+p.email-error {
+  color: red;
+  font-size: 16px;
+}
+
 /* ---------------Display menu-------------------- */
 .display-menu {
   display: block;
