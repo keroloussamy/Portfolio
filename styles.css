@@ -355,7 +355,7 @@ button.card-btn {
 }
 
 p.email-error {
-  color:red;
+  color: red;
   font-size: 16px;
 }
 
@@ -666,5 +666,3 @@ p.email-error {
     display: initial;
   }
 }
-
-

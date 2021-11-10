@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = () => {
   const menuIcon = document.querySelector('.menu-icon');
   const navUl = document.querySelector('.nav-ul-container');
   const navHeader = document.querySelector('#nav-flex-container');
@@ -116,19 +116,18 @@ window.onload = function () {
 
   closeDetail.addEventListener('click', closeUpDetails);
 
-  //email validation
+  // email validation
   const regex = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
   const form = document.getElementById('footer-form');
   const email = document.getElementById('email');
   const error = document.querySelector('.email-error');
 
-  form.addEventListener("submit", function (event) {
+  form.addEventListener('submit', (event) => {
     if (regex.test(email.value)) {
       error.textContent = '';
-    }
-    else {
+    } else {
       error.textContent = 'The email should be lowercase.';
       event.preventDefault();
     }
   });
-}
+};
