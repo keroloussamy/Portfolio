@@ -120,7 +120,7 @@ window.onload = function () {
   const regex = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
   const form = document.getElementById('footer-form');
   const email = document.getElementById('email');
-  const error = document.getElementsByClassName('email-error');
+  const error = document.querySelector('.email-error');
 
   form.addEventListener("submit", function (event) {
     if (regex.test(email.value)) {
