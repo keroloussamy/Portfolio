@@ -123,13 +123,10 @@ window.onload = function () {
   const error = document.getElementsByClassName('email-error');
 
   form.addEventListener("submit", function (event) {
-    console.log('fd')
     if (regex.test(email.value)) {
-      console.log('t')
       error.textContent = '';
     }
     else {
-      console.log('f')
       error.textContent = 'The email should be lowercase.';
       event.preventDefault();
     }
