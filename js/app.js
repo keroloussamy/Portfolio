@@ -130,6 +130,5 @@ window.onload = function () {
       error.textContent = 'The email should be lowercase.';
       event.preventDefault();
     }
-    
   });
 }
