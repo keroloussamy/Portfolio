@@ -130,4 +130,41 @@ window.onload = () => {
       event.preventDefault();
     }
   });
+
+  //  local Storage
+  if (localStorage.getItem('dataInputs') === null) {
+    const dataInputs = { fullName: '', email: '', userComment: '' };
+    localStorage.setItem('dataInputs', JSON.stringify(dataInputs));
+  }
+
+  const userComment = document.getElementById('userComment');
+  const fullName = document.getElementById('fullName');
+
+  const populateForm = () => {
+    const retrievedObject = JSON.parse(localStorage.getItem('dataInputs'));
+    fullName.value = retrievedObject.fullName;
+    email.value = retrievedObject.email;
+    userComment.value = retrievedObject.userComment;
+  }
+  populateForm();
+
+  const store = () => {
+    const inputs = {
+      fullname: fullname.value,
+      email: email.value,
+      message: userComment.value,
+    };
+    localStorage.setItem('formInput', JSON.stringify(inputs));
+  };
+
+  fullName.addEventListener('change', (event) => {
+    store();
+  });
+  email.addEventListener('change', (event) => {
+    store();
+  });
+  userComment.addEventListener('change', (event) => {
+    store();
+  });
+
 };
