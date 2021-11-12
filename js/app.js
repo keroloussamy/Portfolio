@@ -34,7 +34,7 @@ window.onload = () => {
     technologies: ['Ruby on rails', 'css', 'JavScript', 'Codepen', 'Terminal', 'Bootstrap'],
     linktoLiveVersion: '#',
     linkToSource: '#',
-  },
+  }
   {
     name: 'Keeping track of hundreds of components 2',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
@@ -107,7 +107,7 @@ window.onload = () => {
     projectDetail.classList.add('display-details');
   }
 
-  function closeUpDetails() {
+  function closeUpDetails {
     projectDetail.classList.add('d-none');
     projectDetail.classList.remove('display-details');
   }
@@ -140,7 +140,7 @@ window.onload = () => {
   const userComment = document.getElementById('userComment');
   const fullName = document.getElementById('fullName');
 
-  const populateForm = () => {
+  const populateForm => {
     const retrievedObject = JSON.parse(localStorage.getItem('dataInputs'));
     fullName.value = retrievedObject.fullName;
     email.value = retrievedObject.email;
